@@ -82,7 +82,6 @@ func (operation *GoFlowOperation) GetProperties() map[string][]string {
 
 	isMod := "false"
 	isFunction := "false"
-	isHttpRequest := "false"
 	hasFailureHandler := "false"
 
 	if operation.Mod != nil {
@@ -94,7 +93,6 @@ func (operation *GoFlowOperation) GetProperties() map[string][]string {
 
 	result["isMod"] = []string{isMod}
 	result["isFunction"] = []string{isFunction}
-	result["isHttpRequest"] = []string{isHttpRequest}
 	result["hasFailureHandler"] = []string{hasFailureHandler}
 
 	return result

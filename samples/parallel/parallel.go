@@ -2,7 +2,8 @@ package parallel
 
 import (
 	"fmt"
-	flow "github.com/dzungtran/simple-flow/flow/v1"
+
+	flow "github.com/dzungtran/simple-flow"
 )
 
 // Workload function
