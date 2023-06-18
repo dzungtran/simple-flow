@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	flow "github.com/dzungtran/simple-flow"
+	flow "github.com/dzungtran/simple-flow/workflow"
 )
 
 const (

@@ -3,7 +3,7 @@ package single
 import (
 	"fmt"
 
-	flow "github.com/dzungtran/simple-flow"
+	flow "github.com/dzungtran/simple-flow/workflow"
 )
 
 // Workload function

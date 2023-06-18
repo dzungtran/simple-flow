@@ -2,8 +2,9 @@ package loop
 
 import (
 	"fmt"
-	flow "github.com/dzungtran/simple-flow/flow/v1"
 	"math/rand"
+
+	flow "github.com/dzungtran/simple-flow/workflow"
 )
 
 // Workload function

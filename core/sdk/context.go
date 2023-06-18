@@ -37,11 +37,6 @@ func CreateContext(id string, node string, name string) *Context {
 	return context
 }
 
-// GetRequestId returns the request id
-func (context *Context) GetRequestId() string {
-	return context.requestId
-}
-
 // GetPhase return the node no
 func (context *Context) GetNode() string {
 	return context.node

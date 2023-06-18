@@ -2,7 +2,8 @@ package serial
 
 import (
 	"fmt"
-	flow "github.com/dzungtran/simple-flow/flow/v1"
+
+	flow "github.com/dzungtran/simple-flow/workflow"
 )
 
 // Workload function
